@@ -8,7 +8,7 @@ function App() {
         <div>
             <Studentprovider>
                 <Router>
-                    <div className="p-5 bg-red-400 text-black text-2xl font-semibold flex gap-40 justify-center">
+                    <div className="p-5 bg-red-400 text-black text-lg font-semibold flex gap-40 justify-center sm:text-2xl">
                         <Link className="hover:underline underline-offset-4 decoration-gray-400" to={"/"}>List of Students</Link>
                         <Link className="hover:underline underline-offset-4 decoration-gray-400" to={"/favourite"}>Favourite Students</Link>
                     </div>
